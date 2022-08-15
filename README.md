@@ -12,7 +12,7 @@
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
 
 * ```git clone https://github.com/khang2ka6/DDos.git```
-* ```cd DDoS; sh vdh.sh```
+* ```cd DDoS; sh dk.sh```
 
 # Contact Me 
 * Zalo: 089.647.5xxx
