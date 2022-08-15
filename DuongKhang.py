@@ -363,7 +363,7 @@ class Tool:
 			elif option == 'dev' or option == 'DEV':
 				print(self.dev)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f ViDucHung.py'], shell=True)
+				subprocess.run(['pkill -f DuongKhang.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} Dương Khang: Done!")
