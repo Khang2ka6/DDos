@@ -260,7 +260,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" SOCKS5 PROXY")
 		print("\n")
 		while True:
-				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"Proxy"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Dương Khang"+Color.LB+" --> "+Color.LG+"Proxy"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 				option = input()
 				if option == '01' or option == '1':
 					with open("http.txt", 'w') as p:
@@ -293,7 +293,7 @@ class Tool:
 					subprocess.run(['pkill -f ViDucHung.py'], shell=True)
 				elif option == 'stop' or option == 'STOP':
 					subprocess.run(['pkill screen'], shell=True)
-					print(f"{Color.LG} Vi Đức Hùng: Done!")
+					print(f"{Color.LG} Dương Khang: Done!")
 				elif option == "":
 					pass
 				else:
@@ -310,7 +310,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"05"+Color.LR+"]"+Color.LC+" EXTRACT LINK")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"Webtool"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Dương Khang"+Color.LB+" --> "+Color.LG+"Webtool"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				while True:
@@ -366,7 +366,7 @@ class Tool:
 				subprocess.run(['pkill -f ViDucHung.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
-				print(f"{Color.LG} Vi Đức Hùng: Done!")
+				print(f"{Color.LG} Dương Khang: Done!")
 			elif option == "":
 				pass
 			else:
@@ -453,7 +453,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" Return")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"Layer4"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Dương Khang"+Color.LB+" --> "+Color.LG+"Layer4"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
@@ -664,7 +664,7 @@ def main():
 	except IsADirectoryError:pass
 	except FileNotFoundError:
 		print(f"{Color.LR}[CRITICAL ERROR]:{Color.RESET} File: 'utils' NotFound")
-		print("\n[+] Please download on GitHub, or git clone: https://github.com/Viduchung/DDoS.git\n")
+		print("\n[+] Please download on GitHub, or git clone: https://github.com/Khang2ka6/DDos.git\n")
 		os.remove(f'{__file__}')
 		script = False
 	if script == False:sys.exit()
